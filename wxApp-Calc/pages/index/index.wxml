@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="view-to-calc ">
+    <button type="default" size="{{defaultSize}}" plain="{{plain}}" hover-class="to-hover" disabled="{{disabled}}" bindtap="toCalc">{{title}}</button>
+  </view>
+</view>

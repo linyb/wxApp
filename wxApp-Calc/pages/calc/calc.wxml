@@ -1,0 +1,45 @@
+<view class="calc-wrapper">
+  <view class="calc-top">
+    <view class="calc-tip">{{resultTip}}</view>
+    <view class="calc-res">
+        {{resultData}}
+    </view>
+  </view>
+  <view class="calc-main">
+     <view class="calc-to-left">
+         <view class="to-col">
+             <view class="to-col-v to-col-oper" id="{{toClear}}" bindtap="toClick">С</view>
+             <view class="to-col-v to-col-oper" id="{{toBack}}" bindtap="toClick">←</view>
+             <view class="to-col-v to-col-oper iconBtn" bindtap="history">
+                <icon type="{{iconType}}" color="{{iconColor}}" class="icon" size="25"/>
+            </view>
+         </view>
+         <view class="to-col">
+             <view class="to-col-v to-col-num" id="{{num7}}" bindtap="toClick">7</view>
+             <view class="to-col-v to-col-num" id="{{num8}}" bindtap="toClick">8</view>
+             <view class="to-col-v to-col-num" id="{{num9}}" bindtap="toClick">9</view>
+         </view>
+         <view class="to-col">
+             <view class="to-col-v to-col-num" id="{{num4}}" bindtap="toClick">4</view>
+             <view class="to-col-v to-col-num" id="{{num5}}" bindtap="toClick">5</view>
+             <view class="to-col-v to-col-num" id="{{num6}}" bindtap="toClick">6</view>
+         </view>
+         <view class="to-col">
+             <view class="to-col-v to-col-num" id="{{num1}}" bindtap="toClick">1</view>
+             <view class="to-col-v to-col-num" id="{{num2}}" bindtap="toClick">2</view>
+             <view class="to-col-v to-col-num" id="{{num3}}" bindtap="toClick">3</view>
+         </view>
+         <view class="to-col">
+             <view class="to-col-v to-col-extra" id="{{num0}}" bindtap="toClick">0</view>
+             <view class="to-col-v to-col-extra" id="{{toDot}}" bindtap="toClick">.</view>
+         </view>
+     </view>
+     <view class="calc-to-right">
+         <view class="to-item-r" id="{{toPlus}}" bindtap="toClick">+</view>
+         <view class="to-item-r" id="{{toMinus}}" bindtap="toClick">-</view>
+         <view class="to-item-r" id="{{toMul}}" bindtap="toClick">×</view>
+         <view class="to-item-r" id="{{toDiv}}" bindtap="toClick">÷</view>
+         <view class="to-item-r" id="{{toRes}}" bindtap="toClick">=</view>
+     </view>
+  </view>
+</view>
