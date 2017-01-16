@@ -1,0 +1,34 @@
+<view class="m-wrapper">
+    <view class="c-header">
+        <navigator url="../mine/mine" class="to-pre">
+            <image src="../image/icon/pre.png" mode="aspectFit" class="pre-icon"></image>
+        </navigator>
+        <text>我的收藏</text>
+        <view></view>
+    </view>
+    <view class="c-items-ver">
+        <block wx:for="{{collectObj}}">
+            <navigator url="../product/product" class="c-item clearfix">
+                <image class="c-item-bg" src="{{item.url}}"></image>
+                <view class="c-item-desc">
+                    <view class="c-item-title">
+                        <text class="c-item-tip" wx:if="{{item.tip.length > 0}}">{{item.tip}}</text>
+                        <text class="c-item-text">{{item.title}}</text>
+                    </view>
+                    <view class="clearfix">
+                        <view class="c-price-left">
+                            <view class="c-price-now">{{item.priceNow}}</view>
+                            <view class="c-price-old">{{item.priceOld}}</view>
+                        </view>
+                        <view class="c-price-left">
+                            <view class="c-price-oper" wx:if="{{item.priceHY > 0}}">
+                            会员价：{{item.priceHY}}</view>
+                            <view class="c-price-oper" wx:if="{{item.priceWS > 0}}">
+                            批发价：{{item.priceWS}}</view>
+                        </view>
+                    </view>
+                </view>
+            </navigator>
+        </block>
+    </view>
+</view>

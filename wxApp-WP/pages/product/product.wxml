@@ -1,0 +1,9 @@
+<view class="m-wrapper">
+    <swiper indicator-dots="{{isDot}}" autoplay="{{isAuto}}" interval="5000" duration="1000" class="to-swiper">
+        <block wx:for-items="{{swiperObj}}">
+            <swiper-item>
+                <image src="{{item.url}}" class="slide-img"></image>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>

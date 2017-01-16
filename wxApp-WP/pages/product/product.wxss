@@ -1,0 +1,4 @@
+.to-swiper,.slide-img {
+    width:100%;
+    height: 576rpx;
+}

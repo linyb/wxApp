@@ -1,0 +1,76 @@
+<view class="m-wrapper">
+    <view class="m-head-top">
+        <image src="../image/icon/topBg.jpg" class="m-head-bg"></image>
+        <image src="../image/icon/dpj.png" mode="aspectFit" class="m-head-icon"></image>
+        <view>
+            <view class="m-name">小朵</view>
+            <view>金卡会员 8894r374</view>
+        </view>
+    </view>
+    <view class="m-items-hor">
+       <view class="m-hor-item">
+           <image src="../image/icon/dzf.png"  mode="aspectFit" class="m-hor-icon"></image>
+           <view>待支付</view>
+       </view>
+       <view class="m-hor-item">
+           <image src="../image/icon/dfh.png"  mode="aspectFit" class="m-hor-icon"></image>
+           <view>待发货</view>
+       </view>
+       <view class="m-hor-item">
+           <image src="../image/icon/dsh.png"  mode="aspectFit" class="m-hor-icon"></image>
+           <view>待收货</view>
+       </view>
+       <view class="m-hor-item">
+           <image src="../image/icon/dpj.png"  mode="aspectFit" class="m-hor-icon"></image>
+           <view>待评价</view>
+       </view>
+       <view class="m-hor-item">
+           <image src="../image/icon/addr.png"  mode="aspectFit" class="m-hor-icon"></image>
+           <view>地址管理</view>
+       </view>
+    </view>
+    <view class="m-items-part">
+        <view class="m-items-ver">
+            <image src="../image/icon/order.png" mode="aspectFit" class="m-ver-icon"></image>
+            <text>我的订单</text>
+        </view>
+    </view>
+    <view class="m-items-part">
+        <view class="m-items-ver">
+            <image src="../image/icon/hyk.png"  mode="aspectFit" class="m-ver-icon"></image>
+            <text>我的会员卡</text>
+        </view>
+        <view class="m-items-ver">
+            <image src="../image/icon/evaluate.png"  mode="aspectFit" class="m-ver-icon"></image>
+            <text>我的评价</text>
+        </view>
+        <navigator url="../collect/collect" class="m-items-ver">
+            <!--<view class="m-items-ver">-->
+                <image src="../image/icon/collect.png"  mode="aspectFit" class="m-ver-icon"></image>
+                <text>我的收藏</text>
+            <!--</view>-->
+        </navigator>
+        <view class="m-items-ver">
+            <image src="../image/icon/express.png"  mode="aspectFit" class="m-ver-icon"></image>
+            <text>快递查询</text>
+        </view>
+    </view>
+    <view class="m-items-part">
+        <view class="m-items-ver">
+            <image src="../image/icon/auction.png"  mode="aspectFit" class="m-ver-icon"></image>
+            <text>我的竞拍</text>
+        </view>
+        <view class="m-items-ver">
+            <image src="../image/icon/sk.png"  mode="aspectFit" class="m-ver-icon"></image>
+            <text>我的秒杀</text>
+        </view>
+        <view class="m-items-ver">
+            <image src="../image/icon/ws.png"  mode="aspectFit" class="m-ver-icon"></image>
+            <text>我的批发</text>
+        </view>
+        <view class="m-items-ver">
+            <image src="../image/icon/gp.png"  mode="aspectFit" class="m-ver-icon"></image>
+            <text>我的团购</text>
+        </view>
+    </view>
+</view>
